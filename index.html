@@ -15,25 +15,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Dev - Previsão</title>
+    <title>Weather | Dev</title>
   </head>
   <body>
     <div class="container-main">
-      <input class="input-city" type="text" placeholder="Cidade" />
+      <input class="input-city" type="text" placeholder="Digite o nome da cidade" />
       <button onclick="clickButton()">
         <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" />
       </button>
 
       <div class="container-secondary">
-        <h2 class="city">Tempo em sua Cidade</h2>
-        <p class="temp">30°C</p>
+        <h2 class="city">Corumbá</h2>
+        <p class="temp">30°<span>C</span></p>
 
         <div class="smaller-container">
-            <img class="icon" src="https://openweathermap.org/img/wn/04n.png"/>
-            <p class="description">Nuvens Dispersas</p>
+          <img class="icon" src="https://openweathermap.org/img/wn/04n.png" />
+          <p class="description">Nuvens Dispersas</p>
         </div>
 
+        <p class="temp-max">Temp max: 33°</p>
+        <p class="sensation">Sensação: 32°</p>
         <p class="umidity">Umidade: 70%</p>
+        <p class="temp-min">Temp min: 24°</p>
       </div>
     </div>
   </body>
